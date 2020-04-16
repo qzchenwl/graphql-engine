@@ -1,0 +1,8 @@
+sudo: required
+language: generic
+services:
+  - docker
+
+script:
+  - docker run -u vscode -v $PWD/server:/workdir qzchenwl/haskell-hie-devcontainer:6f15d47 bash -c 'source /home/vscode/.bashrc && cd /workdir && hie'
+

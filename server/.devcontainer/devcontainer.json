@@ -1,6 +1,6 @@
 {
     "name": "GHC 8.6.5 with HIE",
-    "image": "qzchenwl/haskell-hie-devcontainer:patch-1",
+    "image": "qzchenwl/haskell-hie-devcontainer:6f15d47",
     "runArgs": [],
 
     // Use 'settings' to set *default* container specific settings.json values on container create. 
@@ -24,7 +24,4 @@
     "extensions": [
         "alanz.vscode-hie-server"
     ],
-
-    // "workspaceFolder": "/workspace",
-    // "workspaceMount": "source=/home/chenwl/Documents/github/haskell/graphql-engine/server,target=/workspace,type=bind,consistency=cached"
 }
