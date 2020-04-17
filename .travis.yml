@@ -4,5 +4,5 @@ services:
   - docker
 
 script:
-  - docker run -v $PWD/server:/workdir qzchenwl/haskell-hie-devcontainer:1b6133a bash -c 'cd /workdir && cabal new-update && hie'
+  - docker run -v $PWD/server:/workdir qzchenwl/haskell-hie-devcontainer:1b6133a bash -c 'cd /workdir && cabal new-update && hie --debug --bios-verbose'
 

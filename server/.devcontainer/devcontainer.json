@@ -25,7 +25,7 @@
         "alanz.vscode-hie-server"
     ],
 
-    "workspaceFolder": "/workspace",
-    "workspaceMount": "source=/home/chenwl/tmp/server,target=/workspace,type=bind,consistency=cached"
+    "workspaceFolder": "/workspace/server",
+    "workspaceMount": "source=/home/chenwl/tmp,target=/workspace,type=bind,consistency=cached"
 
 }
